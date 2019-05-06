@@ -20,5 +20,5 @@ Check Installation Guide Here:
 https://86leaves.com/knowledge-base/download-laravel-5-8-blog-project-for-free/
 
 <hr>
-<img src='https://ibb.co/7Njxxmx' width='100%' height='400px'>
+<img src='https://i.ibb.co/7Njxxmx/cover.png' width='100%' height='400px'>
 <hr>
