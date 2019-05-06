@@ -1,7 +1,7 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <hr>
-## Project is a blog application with authentication and admin area in Laravel 5.8
+Project is a blog application with authentication and admin area in Laravel 5.8
 <hr>
 <h1>Visit us : <a href='https://arrowempire.com' target='_blank'>https://arrowempire.com</a></h1>
 <h1>Forum : <a href='https://86leaves.com' target='_blank'>https://86leaves.com</a></h1>
