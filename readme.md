@@ -11,7 +11,7 @@ Project is a blog application with authentication and admin area in Laravel 5.8
 Thanks
 </h4>
 <hr>
-Any Improvement and correction is welcome.
+Any Improvements and corrections are welcome.
 
 
 <hr>
