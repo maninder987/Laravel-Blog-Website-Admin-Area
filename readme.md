@@ -1,24 +1,21 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
-**************
+<hr>
 ## Project is a blog application with authentication and admin area in Laravel 5.8
-**************
-<h1>Visit us : <a href='https://arrowempire.com' target='_blank'>https://arrowempire.com</h1>
+<hr>
+<h1>Visit us : <a href='https://arrowempire.com' target='_blank'>https://arrowempire.com</a></h1>
 <h1>Forum : <a href='https://86leaves.com' target='_blank'>https://86leaves.com</a></h1>
-**************
+<hr>
 <h4>Use this Project for learning and freely. Contribute by visiting our website and join us by registering on our website.
 
 Thanks
 </h4>
-**************
+<hr>
 Any Improvement and correction is welcome.
 
+
+<hr>
+Installation
 
 
 
