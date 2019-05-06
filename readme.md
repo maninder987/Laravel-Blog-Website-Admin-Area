@@ -6,15 +6,16 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
+**************
 ## Project is a blog application with authentication and admin area in Laravel 5.8
+**************
+<h1>Visit us : <a href='https://arrowempire.com' target='_blank'>https://arrowempire.com</h1>
+<h1>Forum : <a href='https://86leaves.com' target='_blank'>https://86leaves.com</a></h1>
+**************
+<h4>Use this Project for learning and freely. Contribute by visiting our website and join us by registering on our website.
 
-##Visit us : https://arrowempire.com
-##Forum : https://86leaves.com
-
-Use this Project for learning and freely. Contribute by visiting our website and join us by registering on our website.
-
-thanks
-
+Thanks
+</h4>
 **************
 Any Improvement and correction is welcome.
 
