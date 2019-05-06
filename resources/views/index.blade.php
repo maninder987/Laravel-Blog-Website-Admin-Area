@@ -10,6 +10,8 @@
 
 <title>Laravel Blog Project</title>
 
+
+<link href="{{ asset('css/custom.css') }}" rel="stylesheet" type="text/css" >
 <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
 <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
 <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}">
@@ -17,7 +19,47 @@
 
 <!-- MAIN CSS -->
 <link rel="stylesheet" href="{{ asset('css/tooplate-style.css') }}">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="http://newblog.test/admin/home">Dashboard <span class="sr-only">(current)</span></a>
+        </li>
+        <!-- Authentication Links -->
+        @guest
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+            </li>
+            @if (Route::has('register'))
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                </li>
+            @endif
+        @else
+            <li class="nav-item dropdown">
+                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                    {{ Auth::user()->name }} <span class="caret"></span>
+                </a>
 
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="{{ route('logout') }}"
+                       onclick="event.preventDefault();
+                                     document.getElementById('logout-form').submit();">
+                        {{ __('Logout') }}
+                    </a>
+
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                        @csrf
+                    </form>
+                </div>
+            </li>
+        @endguest
+      </ul>
+    </div>
+  </div>
+
+</nav>
 </head>
 <body>
 
@@ -163,7 +205,7 @@
                <div class="col-md-7 col-sm-10">
                     <!-- CONTACT FORM HERE -->
                     <div class="wow fadeInUp" data-wow-delay="0.4s">
-                        <form id="contact-form" action="#" method="get">
+                        <form id="contact-form" action="{{ route('admin.contact') }}" method="get">
                               <div class="col-md-6 col-sm-6">
                                    <input type="text" class="form-control" name="name" placeholder="Name" required="">
                               </div>

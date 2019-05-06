@@ -22,7 +22,11 @@ Route::get('/',[
   'uses'=>'FrontendController@index',
   'as'=>'home'
 ]);
-
+//frontend form view
+Route::get('/admin/contact',[
+  'uses'=>'ContactController@create',
+  'as'=>'admin.contact'
+]);
 
 
 //authenticated user loggedin
